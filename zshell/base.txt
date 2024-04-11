@@ -1,0 +1,41 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/hopper/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+# Run startx
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+	exec startx
+fi
+
+# Enable zoxide
+eval "$(zoxide init zsh)"
+
+# Alias commands
+alias la='ls -a'
+alias ll='ls -la'
+alias kys='shutdown now'
+alias save='source ~/.zshrc'
+alias cat='bat'
+alias dir='ls'
+alias vi='nvim'
+alias vim='nvim'
+alias nano='nvim'
+alias cd='z'
+alias refresh='~/Tools/refresh.sh'
+
+# Prompt
+PS1="[%n@%m : %~]
+> "
+RPROMPT="STATUS:%?
+%t"
+
+#TEST FLAG

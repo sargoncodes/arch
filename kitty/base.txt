@@ -1,0 +1,39 @@
+# Dank Neon Colorscheme for Kitty
+
+foreground            #f8392c
+background            #840f33
+selection_foreground  #390b33
+selection_background  #ff3900
+url_color             #7934c9
+
+# black
+color0   #191b2a
+color8   #2a2d46
+
+# red
+color1   #ac3756
+color9   #ff476e
+
+# green
+color2   #2dad86
+color10  #39ffba
+
+# yellow
+color3   #ffca7a
+color11  #ffee7a
+
+# blue
+color4 #7496cc
+color12  #94bfff
+
+# magenta
+color5   #a37ca9
+color13  #f1b3f1
+
+# cyan
+color6   #01a8ad
+color14  #01f7f7
+
+# white
+color7   #858db7
+color15  #eff0f6

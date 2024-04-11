@@ -1,0 +1,14 @@
+# Cyberpunk
+White = #ffffff
+Cyan = #7934c9
+Aqua = #00cc99
+Yellow = #ff3900
+Dark Yellow = #fdc00a
+Orange #fa7d1b
+Red Orange = #f8392c
+Red = #f71735
+Dark Red = #cd1434
+Red purple = #840f33
+Purple = #3c0b33
+Dark Purple = #190933
+Black = #000000

@@ -1,0 +1,13 @@
+# Start audio
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+/usr/bin/pipewire-media-session &
+
+# Set wallpaper
+~/.fehbg &
+
+# Start compositor
+exec picom &
+
+# Start window manager
+exec i3
